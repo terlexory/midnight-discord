@@ -1,3 +1,11 @@
+/**
+ * @name Midnight+
+ * @description A dark and (semi) customizable discord theme. Visual issues were fixed.
+ * @author edited by @ryosiks & @._fatal (originally by refact0r)
+ * @version 2.2.
+ * @source https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css
+*/
+
 /* main.css */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -506,7 +514,7 @@ body {
         }
     }
 }
-.vcd-screen-picker-option-radio[data-checked='true'] span {
+.vcd-screen-picker-option-radio[data-checked="true"] span {
     color: var(--text-0);
 }
 
@@ -523,9 +531,9 @@ body {
 }
 
 body {
-    --font-primary: var(--font), 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-display: var(--font), 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-code: var(--code-font), 'gg mono', 'Source Code Pro', Consolas, Monaco, monospace;
+    --font-primary: var(--font), 'gg sans';
+    --font-display: var(--font), 'gg sans';
+    --font-code: var(--code-font), 'gg mono';
 }
 
 [class*='scroll'] {
@@ -822,8 +830,6 @@ body {
         --background-base-lowest: var(--bg-4);
         --background-brand: var(--accent-2);
         --background-code: var(--bg-3);
-        --background-code-addition: lime;
-        --background-code-deletion: blue;
         --background-feedback-critical: color-mix(in hsl, var(--red-2), transparent 80%);
         --background-feedback-info: color-mix(in hsl, var(--blue-2), transparent 80%);
         --background-feedback-positive: color-mix(in hsl, var(--green-2), transparent 80%);
@@ -1346,7 +1352,7 @@ body {
     .participantsButton__211d1 /* vc participants button */,
     .voiceBar__7aaec /* n in voice bar (channel list) */,
     .mainCard_f369db /* form posts */,
-    .accountProfileCard_a9178b /* account settings profile background */ {
+    .accountProfileCard_a27e58 /* account settings profile background */ {
         background-color: var(--bg-3);
     }
 
@@ -2280,4 +2286,3 @@ body {
         gap: 0;
     }
 }
-
