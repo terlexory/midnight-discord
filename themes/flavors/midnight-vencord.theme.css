@@ -88,7 +88,7 @@ body {
     --bg-1: hsl(15, 5%, 25%); /* dark buttons when clicked */ /* hsl(20, 5%, 25%) */
     --bg-2: #3c3836; /* dark buttons */
     --bg-3: hsl(20, 2%, 19%); /* spacing, secondary elements  */
-    --bg-4: #000000; /* main background color #282828 */
+    --bg-4: #282828; /* main background color #282828 */
     --hover: hsla(20, 3%, 40%, 0.1); /* channels and buttons when hovered */
     --active: hsla(20, 3%, 40%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(20, 3%, 40%, 0.3); /* extra state for transparent buttons */
@@ -144,9 +144,9 @@ body {
     --yellow-4: hsl(37, 63%, 54%);
     --yellow-5: hsl(37, 63%, 49%);
 
-    --purple-1: hsl(344, 47%, 73%);
-    --purple-2: #d3869b;
-    --purple-3: #d3869b;
-    --purple-4: hsl(344, 47%, 63%);
-    --purple-5: hsl(344, 47%, 58%);
+    --purple-1: hsl(344, 100%, 31%); /* hsl(344, 47%, 73%) */
+    --purple-2: #131313; /* #d3869b */
+    --purple-3: #7f7f7f; /* #d3869b */
+    --purple-4: hsl(343, 10%, 14%); /* hsl(344, 47%, 63%) */
+    --purple-5: hsl(344, 87%, 9%); /* hsl(344, 47%, 58%) */
 }
