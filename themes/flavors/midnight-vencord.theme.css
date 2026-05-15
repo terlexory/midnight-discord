@@ -88,6 +88,7 @@ body {
     --bg-1: hsl(20, 5%, 25%); /* dark buttons when clicked */ /* hsl(20, 5%, 25%) */
     --bg-2: #3c3836; /* dark buttons */
 <<<<<<< HEAD
+<<<<<<< HEAD
     --bg-3: hsl(20, 2%, 13%); /* spacing, secondary elements  */
     --bg-4: #1f1f1f; /* main background color */
 =======
@@ -96,6 +97,9 @@ body {
     --bg-4: #ff0000; /* main background color #282828 */
 >>>>>>> 6a4cba1 (test)
 =======
+=======
+    --bg-3: hsl(20, 2%, 13%); /* spacing, secondary elements  */
+>>>>>>> 3e36237 (test)
     --bg-4: #1f1f1f; /* main background color #282828 */
 >>>>>>> 3df7a3b (test)
     --hover: hsla(20, 3%, 40%, 0.1); /* channels and buttons when hovered */
