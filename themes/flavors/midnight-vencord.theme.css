@@ -92,8 +92,12 @@ body {
     --bg-4: #1f1f1f; /* main background color */
 =======
     --bg-3: hsl(20, 2%, 19%); /* spacing, secondary elements  */
+<<<<<<< HEAD
     --bg-4: #ff0000; /* main background color #282828 */
 >>>>>>> 6a4cba1 (test)
+=======
+    --bg-4: #1f1f1f; /* main background color #282828 */
+>>>>>>> 3df7a3b (test)
     --hover: hsla(20, 3%, 40%, 0.1); /* channels and buttons when hovered */
     --active: hsla(20, 3%, 40%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(20, 3%, 40%, 0.3); /* extra state for transparent buttons */
